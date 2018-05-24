@@ -1,0 +1,3 @@
+- name: config dns
+  template: src=test_template.conf dest=/tmp/template.txt
+  tags: testtemplate

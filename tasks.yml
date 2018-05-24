@@ -1,0 +1,7 @@
+---
+tasks:
+- name: create folder from tasks.yml
+  file:
+    path: /opt/fromtask
+    state: directory
+    mode: 0755

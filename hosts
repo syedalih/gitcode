@@ -1,0 +1,5 @@
+[gajar]
+jumper ansible_host=172.22.1.31 ansible_user=banda
+
+[webservers]
+webserver1 ansible_host=172.22.1.31 ansible_user=banda

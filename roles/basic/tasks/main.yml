@@ -1,0 +1,6 @@
+- name: "installing packages"
+  yum: pkg={{item}} state=latest
+  with_items:
+  - nfs-utils
+  - git
+  - vim

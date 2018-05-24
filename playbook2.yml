@@ -1,0 +1,6 @@
+---
+- hosts: webservers
+  become: true
+  roles:
+  - basic
+- import_playbook: playbook.yml
